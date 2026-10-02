@@ -5,7 +5,43 @@
     <link>https://machineryhacks.github.io/</link>
     <description>Latest articles from MachineryHacks</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 04:21:32 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 15:44:45 GMT</lastBuildDate>
+    <item>
+      <title>How AI Coding Assistants Boost Productivity in Large Repositories</title>
+      <link>https://machineryhacks.github.io/post/ai-coding-assistants-large-repositories/</link>
+      <guid isPermaLink="true">https://machineryhacks.github.io/post/ai-coding-assistants-large-repositories/</guid>
+      <pubDate>Fri, 02 Oct 2026 15:44:45 GMT</pubDate>
+      <description>AI coding assistants are tools that help developers manage complex codebases by offering suggestions, detecting errors, and automating tasks. They use machine learning and natural language processing to understand code context, making them especially useful in large repositories where code complexity can hinder productivity.
+
+
+What exactly is an AI coding assistant?
+
+An AI coding assistant is a software tool that employs artificial intelligence to support developers in their coding tasks. They c</description>
+    </item>
+    <item>
+      <title>Top AI Writing Tools to Enhance Editorial Workflows</title>
+      <link>https://machineryhacks.github.io/post/ai-writing-tools-editorial-workflows/</link>
+      <guid isPermaLink="true">https://machineryhacks.github.io/post/ai-writing-tools-editorial-workflows/</guid>
+      <pubDate>Fri, 02 Oct 2026 15:43:49 GMT</pubDate>
+      <description>As an editorial manager, you’re likely looking for ways to streamline your team’s writing process. AI writing tools can significantly enhance productivity, improve consistency, and foster creativity. This article presents an overview of top AI writing tools, detailing their features, benefits, and how they can seamlessly integrate into your existing editorial workflows.
+
+
+What are AI writing tools and how do they work?
+
+AI writing tools leverage algorithms and machine learning to assist in gener</description>
+    </item>
+    <item>
+      <title>Top AI Research Tools with Source Citations to Enhance Your Thesis</title>
+      <link>https://machineryhacks.github.io/post/ai-research-tools-source-citations/</link>
+      <guid isPermaLink="true">https://machineryhacks.github.io/post/ai-research-tools-source-citations/</guid>
+      <pubDate>Fri, 02 Oct 2026 15:43:44 GMT</pubDate>
+      <description>As a graduate student, finding reliable AI research tools for your thesis can be daunting. This guide presents several reputable options that effectively manage source citations while improving your research experience. Here, you&apos;ll discover how each tool can streamline your thesis process, making it easier to handle citations and access vital information.
+
+
+Criteria for Choosing AI Research Tools
+
+To identify the best AI research tools, we considered their citation management capabilities, user</description>
+    </item>
     <item>
       <title>How to Establish a Factuality Verification Workflow for LLMs</title>
       <link>https://machineryhacks.github.io/post/factuality-verification-workflow-llms/</link>
@@ -569,42 +605,6 @@ Idempotency, in the context of AI agents, means that an external action—such a
 What exactly is a retry policy for AI agents?
 
 A retry policy outlines the conditions under which an AI agent should retry a failed operation. This includes defining the types of errors that warrant a retry</description>
-    </item>
-    <item>
-      <title>Understanding AI Agent Replay Testing from Traces</title>
-      <link>https://machineryhacks.github.io/post/ai-agent-replay-testing/</link>
-      <guid isPermaLink="true">https://machineryhacks.github.io/post/ai-agent-replay-testing/</guid>
-      <pubDate>Thu, 01 Oct 2026 06:54:30 GMT</pubDate>
-      <description>AI agent replay testing is a method for evaluating AI systems by replaying previously recorded interactions, known as traces. This technique enables developers to identify issues and enhance application robustness without requiring extensive new test cases or environments.
-
-
-What is AI agent replay testing?
-
-AI agent replay testing captures interactions between an AI agent and its environment, then replays those interactions to assess the agent’s responses and behavior. This approach is signific</description>
-    </item>
-    <item>
-      <title>Understanding AI Agent Trace Observability and Its Importance</title>
-      <link>https://machineryhacks.github.io/post/ai-agent-trace-observability/</link>
-      <guid isPermaLink="true">https://machineryhacks.github.io/post/ai-agent-trace-observability/</guid>
-      <pubDate>Thu, 01 Oct 2026 06:54:24 GMT</pubDate>
-      <description>AI agent trace observability is the capability to monitor and analyze the behavior and performance of AI agents throughout their operational lifecycle. This ability is essential for diagnosing issues, optimizing performance, and ensuring that AI systems operate as expected.
-
-
-What is AI agent trace observability?
-
-AI agent trace observability involves tracking the activities, decisions, and outcomes of AI agents in real time. This monitoring helps you understand how and why an AI agent behaves i</description>
-    </item>
-    <item>
-      <title>Understanding AI Agent Evaluation Benchmark Design</title>
-      <link>https://machineryhacks.github.io/post/ai-agent-evaluation-benchmark-design/</link>
-      <guid isPermaLink="true">https://machineryhacks.github.io/post/ai-agent-evaluation-benchmark-design/</guid>
-      <pubDate>Thu, 01 Oct 2026 06:53:50 GMT</pubDate>
-      <description>AI agent evaluation benchmarks are structured frameworks that assess the performance of AI systems. They are essential for researchers and developers to measure task performance and pinpoint areas for improvement.
-
-
-What are AI agent evaluation benchmarks?
-
-AI agent evaluation benchmarks consist of standardized tests and metrics that evaluate how well AI systems perform specific tasks. They enable fair comparison among different AI agents, ensuring consistent and reliable evaluations. For exampl</description>
     </item>
   </channel>
 </rss>

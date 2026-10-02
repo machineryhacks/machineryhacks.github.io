@@ -74,65 +74,6 @@ footer.site{border-top:1px solid var(--border);padding:34px 0 44px;margin-top:30
 .empty{color:var(--muted);text-align:center;padding:70px 20px}
 @media (max-width:640px){.site-inner{flex-direction:column;align-items:flex-start}}</style>
 <link rel="canonical" href="https://machineryhacks.github.io/">
- <script>
-(function () {
-  const path = window.location.pathname;
-  const slug = path.replace(/^\/+|\/+$/g, '');
-
-  // Nothing to do
-  if (!slug) {
-    window.location.replace('/');
-    return;
-  }
-
-  // URLs that should not be treated as posts
-  const excluded = [
-    'post',
-    'assets',
-    'tag',
-    'css',
-    'js',
-    'images',
-    'image',
-    'favicon.ico',
-    'robots.txt',
-    'rss.xml',
-    'sitemap.xml'
-  ];
-
-  // For excluded paths, stay on the normal 404 page
-  if (excluded.some(function (item) {
-    return slug === item || slug.startsWith(item + '/');
-  })) {
-    return;
-  }
-
-  // Actual post URL
-  const target = '/post/' + slug + '/';
-
-  // Check if the post exists
-  fetch(target, {
-    method: 'HEAD',
-    cache: 'no-store'
-  })
-  .then(function (response) {
-
-    if (response.ok) {
-      // Correct post exists
-      window.location.replace(target);
-    } else {
-      // Wrong URL → homepage
-      window.location.replace('/');
-    }
-
-  })
-  .catch(function () {
-    // If checking fails, go to homepage
-    window.location.replace('/');
-  });
-
-})();
-</script>
 <link rel="alternate" type="application/rss+xml" title="MachineryHacks" href="https://machineryhacks.github.io/rss.xml">
 </head>
 <body>

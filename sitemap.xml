@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://machineryhacks.github.io/</loc><changefreq>daily</changefreq></url>
+  <url><loc>https://machineryhacks.github.io/post/ai-coding-assistants-large-repositories/</loc><lastmod>2026-10-02T15:44:45.000Z</lastmod></url>
+  <url><loc>https://machineryhacks.github.io/post/ai-writing-tools-editorial-workflows/</loc><lastmod>2026-10-02T15:43:49.000Z</lastmod></url>
+  <url><loc>https://machineryhacks.github.io/post/ai-research-tools-source-citations/</loc><lastmod>2026-10-02T15:43:44.000Z</lastmod></url>
   <url><loc>https://machineryhacks.github.io/post/factuality-verification-workflow-llms/</loc><lastmod>2026-10-02T04:21:32.000Z</lastmod></url>
   <url><loc>https://machineryhacks.github.io/post/llm-confidence-estimation-limitations/</loc><lastmod>2026-10-02T04:21:03.000Z</lastmod></url>
   <url><loc>https://machineryhacks.github.io/post/llm-summarization-memory-quality-checks/</loc><lastmod>2026-10-02T04:20:40.000Z</lastmod></url>
