@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://machineryhacks.github.io/</loc><changefreq>daily</changefreq></url>
+  <url><loc>https://machineryhacks.github.io/post/factuality-verification-workflow-llms/</loc><lastmod>2026-10-02T04:21:32.000Z</lastmod></url>
+  <url><loc>https://machineryhacks.github.io/post/llm-confidence-estimation-limitations/</loc><lastmod>2026-10-02T04:21:03.000Z</lastmod></url>
+  <url><loc>https://machineryhacks.github.io/post/llm-summarization-memory-quality-checks/</loc><lastmod>2026-10-02T04:20:40.000Z</lastmod></url>
+  <url><loc>https://machineryhacks.github.io/post/llm-conversation-history-truncation/</loc><lastmod>2026-10-02T04:20:15.000Z</lastmod></url>
+  <url><loc>https://machineryhacks.github.io/post/llm-streaming-response-implementation/</loc><lastmod>2026-10-02T04:19:45.000Z</lastmod></url>
+  <url><loc>https://machineryhacks.github.io/post/llm-prompt-caching-design/</loc><lastmod>2026-10-02T04:18:57.000Z</lastmod></url>
+  <url><loc>https://machineryhacks.github.io/post/llm-function-calling-structured-output/</loc><lastmod>2026-10-02T04:18:27.000Z</lastmod></url>
+  <url><loc>https://machineryhacks.github.io/post/fix-llm-json-output-parsing-failures/</loc><lastmod>2026-10-02T04:18:00.000Z</lastmod></url>
+  <url><loc>https://machineryhacks.github.io/post/llm-structured-output-schema-design/</loc><lastmod>2026-10-02T04:17:25.000Z</lastmod></url>
+  <url><loc>https://machineryhacks.github.io/post/knowledge-graph-rag-vs-vector-rag/</loc><lastmod>2026-10-02T04:16:52.000Z</lastmod></url>
+  <url><loc>https://machineryhacks.github.io/post/rag-vs-fine-tuning-private-knowledge/</loc><lastmod>2026-10-02T04:16:19.000Z</lastmod></url>
   <url><loc>https://machineryhacks.github.io/post/understanding-rag-answers-contradict-sources/</loc><lastmod>2026-10-01T07:08:12.000Z</lastmod></url>
   <url><loc>https://machineryhacks.github.io/post/diagnosing-rag-failure-irrelevant-passages/</loc><lastmod>2026-10-01T07:08:01.000Z</lastmod></url>
   <url><loc>https://machineryhacks.github.io/post/diagnosing-low-retrieval-recall-rag-systems/</loc><lastmod>2026-10-01T07:07:43.000Z</lastmod></url>
