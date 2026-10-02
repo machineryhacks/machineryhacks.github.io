@@ -74,19 +74,15 @@ footer.site{border-top:1px solid var(--border);padding:34px 0 44px;margin-top:30
 .empty{color:var(--muted);text-align:center;padding:70px 20px}
 @media (max-width:640px){.site-inner{flex-direction:column;align-items:flex-start}}</style>
 <link rel="canonical" href="https://machineryhacks.github.io/">
-   <script>
+  <script>
 (function () {
   const path = window.location.pathname;
-
-  // Remove leading/trailing slashes
   const slug = path.replace(/^\/+|\/+$/g, '');
 
-  // Ignore empty paths and paths already inside /post/
   if (!slug || slug === 'post' || slug.startsWith('post/')) {
     return;
   }
 
-  // Paths that should NOT be treated as post slugs
   const excluded = [
     'assets',
     'tag',
@@ -106,23 +102,8 @@ footer.site{border-top:1px solid var(--border);padding:34px 0 44px;margin-top:30
     return;
   }
 
-  // Your actual post URL structure:
-  // /post/slug/
-  const target = '/post/' + slug + '/';
-
-  // Check whether the real post exists
-  fetch(target, {
-    method: 'HEAD',
-    cache: 'no-store'
-  })
-  .then(function (response) {
-    if (response.ok) {
-      window.location.replace(target);
-    }
-  })
-  .catch(function () {
-    // Keep normal 404 page if the post does not exist
-  });
+  // Immediately redirect to the actual post URL
+  window.location.replace('/post/' + slug + '/');
 })();
 </script>
 <link rel="alternate" type="application/rss+xml" title="MachineryHacks" href="https://machineryhacks.github.io/rss.xml">
